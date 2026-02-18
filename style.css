@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    color: black;
+    background-color: black;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+h1{
+    padding-left: 10px;
+}
+
+header{
+    background-image: url(Games/fundo.avif);
+    color: white;
+    width:100%;
+    height: 130px;
+    top:0;
+    left:0;
+    display:flex;
+    align-items:center;
+    border: 3px solid black;
+}
+
+nav{
+    background-color: lightgray;
+    margin-top: 5px;
+    width:100%;
+    height: 60px;
+    top:0;
+    left:0;
+    display:flex;
+    align-items:center;
+    border: 3px solid black;
+}
+
+.grade{
+    background-image: url(Games/fundo_2.jpg);
+    color: white;
+    margin: 10px;
+    height: 400px;
+    top:0;
+    left:0;
+    display:flex;
+    align-items:center;
+    border: 5px solid darkgray;
+    border-radius: 15px;
+}
+
+footer{
+    background-image: url(Games/fundo.avif);
+    color: white;
+    width:100%;
+    height: 50px;
+    top:0;
+    left:0;
+    border: 2px solid black;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.card{
+    background-color: white;
+    color: black;
+    margin: 10px;
+    height: 300px;
+    top:0;
+    left:0;
+    display:flex;
+    align-items:center;
+    border: 5px solid darkgray;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* sobe o card */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.game{
+    width: 200px;
+    height: 240px;
+    margin: 20px;
+    top:0;
+    left:0;
+    display:flex;
+    align-items:center;
+    border: 1px solid black;
+}
+
+.game_front{
+    width: 200px;
+    height: 240px;
+    margin: 20px;
+    top:0;
+    left:0;
+    display:flex;
+    align-items:center;
+    border: 1px solid black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game_front:hover {
+    transform: translateY(-10px); /* sobe o card */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+img{
+    width: 200px;
+    height: 240px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+}
+
+input[type=button]{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    border-radius: 8%;
+    border: 2px solid black;
+}
+
+input[type=button]:hover{
+    background-color: blue;
+    color: white;
+}
+
+#primeiro{
+    position:absolute;
+    left: 120px;
+    top: 400px;
+}
+
+#segundo{
+    position:absolute;
+    left: 120px;
+    top: 820px;
+}
+
+.controle{
+    margin-left: 10px;
+    height: 45px;
+    width: 50px;
+}

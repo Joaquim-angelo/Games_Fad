@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizador de Jogos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>GAMES FAD</h1>
+    </header>
+    <main>
+        <section class="grade">
+            <h1>JOGADOS EM 2026</h1>
+            <div class="game_front" style="margin-left: 60px;"><img src="Games/GTA_V.jpg" alt="GTA V"></div>
+            <div class="game_front"><img src="Games/midnight_club3.webp" alt="MC3"></div>
+            <div class="game_front"><img src="Games/vazio.png" alt=""></div>
+            <div class="game_front"><img src="Games/vazio.png" alt=""></div>
+            <input type="button" value="Ver Mais" onclick="abrir_1()" id="primeiro">
+        </section>
+
+        <section class="grade">
+            <h1>RANKING DE JOGOS</h1>
+            <div class="game_front"><img src="Games/Dark_Souls.png" alt="GTA V"></div>
+            <div class="game_front"><img src="Games/GTA_V.jpg" alt="MC3"></div>
+            <div class="game_front"><img src="Games/The_Last_of_Us.png" alt="TLOU"></div>
+            <div class="game_front"><img src="Games/God_of_War_III.webp" alt="GOW3"></div>
+            <input type="button" value="Ver Ranking" onclick="abrir_2()" id="segundo">
+        </section>
+    </main>
+    <footer>
+        <p>@Joaquim_Angelo</p>
+    </footer>
+
+    <script>
+        function abrir_1() {
+            window.location.href = "2026.html";
+        }
+        function abrir_2() {
+            window.location.href = "Ranking.html";
+        }
+    </script>
+</body>
+</html>
