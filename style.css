@@ -40,6 +40,7 @@ nav{
 
 .grade{
     background-image: url(Games/fundo_2.jpg);
+    background-position: left center;
     color: white;
     margin: 10px;
     height: 400px;
