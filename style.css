@@ -16,7 +16,7 @@ h1{
 }
 
 header{
-    background-image: url(Games/fundo.avif);
+    background-image: url(Games/fundo.jpg);
     color: white;
     width:100%;
     height: 130px;
@@ -40,11 +40,11 @@ nav{
 }
 
 .grade{
-    background-image: url(Games/fundo_3.avif);
+    background-image: url(Games/fundo_azul.jpg);
     background-position: left center;
     color: white;
     margin: 10px;
-    height: 400px;
+    height: 350px;
     top:0;
     left:0;
     display:flex;
@@ -54,7 +54,7 @@ nav{
 }
 
 footer{
-    background-image: url(Games/fundo.avif);
+    background-image: url(Games/fundo.jpg);
     color: white;
     width:100%;
     height: 100px;
@@ -73,7 +73,7 @@ a{
     background-color: white;
     color: black;
     margin: 10px;
-    height: 300px;
+    height: 260px;
     top:0;
     left:0;
     display:flex;
@@ -143,13 +143,13 @@ input[type=button]:hover{
 #primeiro{
     position:absolute;
     left: 120px;
-    top: 400px;
+    top: 370px;
 }
 
 #segundo{
     position:absolute;
     left: 120px;
-    top: 820px;
+    top: 750px;
 }
 
 .controle{
